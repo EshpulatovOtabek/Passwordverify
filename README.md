@@ -11,14 +11,14 @@
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
 #include <string.h>
 #include <ctype.h>
 using namespace std;
 
-int main ()
+    int main ()
 {
     bool hasupper=false;
     bool haslower=false;
@@ -26,7 +26,7 @@ int main ()
     bool hasnumber=false;
     bool hasymbol=false;
     string password;
-
+    
     cout << "Password: ";
     cin >> password;
     int num=password.size();
